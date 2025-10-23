@@ -1,6 +1,7 @@
 <template>
     <div>
         <h3>GrandChild: {{ injectedCount }}</h3>
+        <button @click="injectedCount++;">GrandChild에서 값 증가</button>
     </div>
 </template>
 
